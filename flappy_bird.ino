@@ -3,7 +3,6 @@
 // connect sda -> gpio21
 // connect scl -> gpio22
 // switch between gnd and gpio4
-// connect buzzer between gnd and gpio12
 
 #include "LiquidCrystal_I2C.h"
 LiquidCrystal_I2C lcd(0x27,16,2);
